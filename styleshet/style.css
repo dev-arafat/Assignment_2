@@ -1,0 +1,95 @@
+
+.container{
+    font-family: 'Poppins', sans-serif;
+    
+}
+.top-part{
+    display: flex;
+    background-color: #3DBAFD;
+}
+.letter{
+    height: 220px;
+    width: 465px;
+    margin-left: 70px;
+    margin-top: 20px;
+    font-size: 40px;
+    color: white;
+
+}
+.link-button{
+    margin-top: -60px;
+}
+#login{
+    width: 30px;
+    margin-bottom: -9px;
+    margin-left: 5px;
+}
+  #watch{
+    width: 168px;
+    height: 44px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    background-image: linear-gradient(rgb(241, 173, 47),rgba(231, 193, 68, 0.596));
+    box-shadow: 3px 3px 3px 2px rgb(151, 151, 151);
+    padding: 10px 24px 10px 24px;
+}
+#watch:hover{
+    background-image: linear-gradient(rgb(92, 9, 9),rgb(61, 245, 61));
+}
+.imges img{
+    width: 546px;
+    height: 428px;
+    margin-top: 70px;
+    margin-left:450px;
+}
+.player-section{
+    margin-left: 70px;
+    margin-top: 70px;
+  
+}
+.course-img img{
+    width: 280px;
+    height: 160px;
+    margin-left: 34px;
+    margin-top:15px;
+    
+}
+.player{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap:35px;
+}
+.course-blog{
+    margin-left: 10px;
+    margin-right: 5px ;
+}
+.lates-Course{
+    
+    width: 350px;
+    height:400px ;
+    box-shadow: 5px 5px 5px 5px rgb(243, 243, 243);
+}
+.logo img{
+    width: 80px;
+    height: 70px;
+}
+.logo{
+    margin-top: 50px;
+     margin-left: 600px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+}
+.icon a img{
+       width:  30px;
+       height: 30px;
+       margin-right: 10px;
+       margin-left: 10px;
+
+}
+.footer{
+    text-align: center;
+    margin-top: 10px;
+}
